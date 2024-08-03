@@ -21,6 +21,3 @@ This code requires the following packages:
   5. gridfs
   6. multer
   7. node-rsa
-
-  9.
-
