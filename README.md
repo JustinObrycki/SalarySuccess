@@ -8,7 +8,7 @@ Our website will ask you some details about your desired job location, current o
 
 Design Specification Report: [Final CS Senior Design Specification Report.pdf](https://github.com/user-attachments/files/16477919/Final.CS.Senior.Design.Specification.Report.pdf)
 
-Contributors: 
+Contributors:   
   neel-chat: Nayan C.  
   JustinObrycki: Justin O.  
   isaiahroman: Isaiah R.  
