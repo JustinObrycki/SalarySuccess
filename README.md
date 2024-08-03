@@ -9,9 +9,9 @@ Our website will ask you some details about your desired job location, current o
 Design Specification Report: [Final CS Senior Design Specification Report.pdf](https://github.com/user-attachments/files/16477919/Final.CS.Senior.Design.Specification.Report.pdf)
 
 Contributors: 
-neel-chat: Nayan C.
-JustinObrycki: Justin O.
-isaiahroman: Isaiah R.
+  neel-chat: Nayan C.
+  JustinObrycki: Justin O.
+  isaiahroman: Isaiah R.
 
 This code requires the following packages:
   1. MongoDB
