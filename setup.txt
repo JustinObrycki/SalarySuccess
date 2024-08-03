@@ -1,0 +1,16 @@
+The following npm modules must be added before running database.js:
+npm install express
+npm install mongodb
+npm install bcrypt
+npm install prompt-sync
+npm install node-rsa
+npm install multer
+
+
+npx browserify salary_negotiation_db_v1.js -o sal_alg.js
+
+
+Once complete "node .\database.js" can be run to start web application.
+
+Link to Set-up EC2 Instance and Launch NodeJS App on it
+https://resonant-cement-f3c.notion.site/Running-Node-js-API-on-Amazon-Linux-EC2-with-Custom-Domain-and-SSL-Certificate-f27601f25a5f4ae4a03a79e7d058766d

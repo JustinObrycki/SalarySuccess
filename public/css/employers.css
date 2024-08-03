@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans+TC:wght@400;900&family=Source+Sans+3&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    display: flex;
+    background-image: linear-gradient(to bottom right, #56baed, #0d75b0);
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+#leftSide {
+    width: 30%;
+    height: 700px;
+    overflow-y: scroll;
+    border-right: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+div::-webkit-scrollbar {
+    display: none;
+}
+
+.jobItem {
+    height: 200px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    align-content: center;
+    display: grid;
+}
+
+.jobItem:hover {
+    background-color: #ddd;
+}
+
+.jobListDetail {
+    padding-left: 10%;
+}
+
+#jobApplicants {
+    flex: 1;
+    padding: 40px;
+    display: none;
+    /* Hidden by default */
+}
+
+.jobApplicantInfo {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jobApplicantContainer {
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.negotiationArea {
+    display: none;
+    padding-top: 10px;
+}
+
+.startMsg3Area {
+    justify-content: space-evenly;
+    display: none;
+}
+
+.newRoundArea {
+    justify-content: space-evenly;
+    display: none;
+}
+
+.endRoundArea {
+    justify-content: space-evenly;
+    display: none;
+}
+
+.negotiationSuccess {
+    justify-content: space-evenly;
+    display: none;
+}
+
+
+.buttonStyle {
+    text-align: center;
+    border-radius: 15px;
+    border-width: 3px;
+    border-collapse: separate;
+}
+
+#addJobSection {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#addJobButton {
+    width: 115px;
+}
+
+#newJobInfo {
+    padding: 10px;
+
+    display: none;
+    /* Hidden by default */
+}
+
+.input-container {
+    padding: 5px;
+}
+
+.textbox {
+    border-radius: 10px;
+}
+
+#deleteButtonDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.user-info {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+}
+
+.user-info p {
+    margin: 10px 0;
+}
+
+.user-info input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.edit-section {
+    margin-top: 20px;
+    display: ruby-text;
+}
+
+.edit-section h2 {
+    margin-top: 0;
+}
+
+.navbar-brand,
+.offcanvas-title {
+    font-family: 'Lobster', sans-serif;
+    color: rgb(66, 133, 244);
+
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+/* Simple CSS3 Fade-in Animation */
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    opacity: 0;
+    -webkit-animation: fadeIn ease-in 1;
+    -moz-animation: fadeIn ease-in 1;
+    animation: fadeIn ease-in 1;
+
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.fadeIn.first {
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+.fadeIn.second {
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.fadeIn.third {
+    -webkit-animation-delay: 0.8s;
+    -moz-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+}
+
+.fadeIn.fourth {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.errorStyle {
+    color: red;
+    font-weight: bolder;
+}
+
+#editError {
+    display: none;
+    padding-top: 20px
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/sign-in.css">
+    <script src="./js/sign_up.js"></script>
+</head>
+
+<body>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+            <!-- Tabs Titles -->
+            <h2 class="inactive underlineHover">
+                <a id="redirect" href="login.html">Login</a>
+            </h2>
+            <h2 class="active">Sign Up </h2>
+
+            <!-- Icon -->
+            <div class="fadeIn first">
+                <img src="images/SalarySuccessLogo+Name.png" id="icon" alt="User Icon" />
+            </div>
+
+            <!-- sign_up Form -->
+            <form>
+                <span>
+                    <input type="radio" id="applicant" name="accountType" value="applicant" checked> Applicant </input>
+                    <input type="radio" id="employer" name="accountType" value="employer"> Employer </input>
+                </span>
+                <input type="text" id="first_name" class="fadeIn second" name="sign_up" placeholder="First Name">
+                <input type="text" id="last_name" class="fadeIn third" name="sign_up" placeholder="Last Name">
+                <input type="text" id="email" class="fadeIn second" name="sign_up" placeholder="email">
+                <input type="text" id="password" class="fadeIn third" name="sign_up" placeholder="password">
+                <input type="text" id="confirm_password" class="fadeIn third" name="sign_up"
+                    placeholder="confirm password">
+                <button type="submit" class="fadeIn fourth" id="signup">Sign Up</button>
+            </form>
+            <div class="error">
+            </div>
+        </div>
+    </div>
+         
+</body>
+
+</html>

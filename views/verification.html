@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Verification Page </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/verification.css">
+        <script src="./js/verification.js"></script>
+    </head>
+    <body style="background-color: #56baed;">
+        <div class="wrapper fadeInDown">
+            <div id="formContent">
+                <!-- Icon -->
+                <div class="fadeIn first">
+                    <img src="images/test.png" id="icon" alt="User Icon" />
+                </div>
+    
+                <!-- Verification -->
+                <div class="fadeIn second">
+                    <p >Thank you for creating an account.
+                        <br>
+                        There is one last step before you can access your negotiations
+                        <br>
+                        Click the following link to <b>generate a public and private key</b> for your use on the website.
+                        <br>
+                        After generating the keys on the website <b>you must save the private key</b>.
+                        <br>
+                        <span style="color: red;"><b>DO NOT GENERATE ANOTHER KEY AFTER YOUR FIRST GENERATION</b></span>
+                        <br>
+                        <span style="color: red;"><b>YOU MUST ONLY USE THIS ONE PRIVATE KEY ASSOCIATED WITH THIS PUBLIC KEY</b></span></p>
+                        <br>
+                        <span style="color: red;"><b>YOU MUST USE A KEY LENGTH OF 2048</b></span></p>
+                        <br>
+                    <a href="https://cryptotools.net/rsagen" target="_blank" rel="noopener noreferrer">https://cryptotools.net/rsagen</a>
+                </div>
+                <form>
+                    <input type="text" id="public_key" class="fadeIn third" name="keys"
+                        placeholder="Enter Public Key">
+                    <button type="submit" class="fadeIn fourth" id="public_key">Submit</button>
+                </form>
+                <div class="error">
+                </div>
+            </div>
+        </div>
+             
+    </body>
+</html>
